@@ -28,10 +28,20 @@ h3 {
     font-size: 12pt;
 }
 
+h4 {
+    color: #1A5637;
+    font-size: 16pt;
+}
+
 h5 {
     font-size: 12pt;
 }
  
+h6 {
+    color: #1A5637;
+    font-size: 12pt;
+    
+}
 p {
     margin-left: 30%;
     margin-right: 30%;
@@ -159,12 +169,9 @@ p {
     .textboximg {
         display: flex;
         flex-direction: row;
-        padding: 2% 2% 2% 2%;
+        padding: 4% 2% 2% 2%;
     }
-    .textboximg img {
-        width: 50;
-    }
-
+    
     .image {
         width: 50%;
         max-width: 60%;      
@@ -181,9 +188,24 @@ p {
     }
     .boxeimages img {
         margin-bottom: 2%;
-        padding-left: 5.5%;  
+        padding-left: 6.4%;  
         padding-right: 2%;
-    }     
+        
+    }   
+    
+    .boxeimages1 {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #C9DEBD;
+        margin-top: 2%;
+        padding-top: 2%; 
+    }
+
+    .boxeimages1 img {
+        margin-bottom: 2%;
+        padding-left: 3%;  
+        padding-right: 2%;
+    }
 
     .knappe {
         color: white;
@@ -325,9 +347,9 @@ p {
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 100%;
-        
+        width: 100%;   
     }
+    
     .image {
         width: 100%; 
         margin-top: 2%;     
@@ -337,7 +359,6 @@ p {
        margin-left: -1%;
         width: 80%;
         padding-bottom: 2%;
-
     }
 
     .forsidebox {
@@ -371,7 +392,6 @@ p {
         flex-wrap: wrap;
         padding-top: 4%;
         padding-bottom: 4%;
-
     }
 
     .boxeimages img {
@@ -379,6 +399,18 @@ p {
         padding: 1% 2% 1% 2%; 
     }
 
+    .boxeimages1 {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding-top: 4%;
+        padding-bottom: 4%;
+    }
+
+    .boxeimages1 img {
+        width: 40%;
+        padding: 1% 2% 1% 2%; 
+    }
     #googlemaps {
         justify-content: center;
     }
